@@ -42,3 +42,7 @@ def average(request):
 		if i.salary > 30000:
 			emp_new.append(i)
 	return HttpResponse(emp_new)
+
+def Main(request):
+	s = 'This is the main page'
+	return HttpResponse(s)
